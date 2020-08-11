@@ -1,0 +1,244 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Open Sans;
+}
+.main-section {
+	display: flex;
+	background: #E5E5E5;
+}
+.sidebar {
+	width: 230px;
+	height: 400px;
+	/*background-color: blue;*/
+}
+.monica {
+	width: 100%;
+	margin-left: 45px;	
+	margin-top: 5px;
+}
+.feed {
+	width: 100%;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	flex-direction: column;
+}
+.points {
+	width: 654px;
+	height: 32px;
+	margin: 32px auto 32px;
+}
+.take-bonus {
+	width: 656px;
+	/*height: 300px;*/
+	padding-bottom: 24px;
+	margin-bottom: 24px;	 
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);	
+	/*background-color: green;*/
+	background: #FFFFFF;
+
+}
+.bonus {
+	width: 656px;
+	/*background-color: blue;*/
+	box-shadow:  0 2px 9px rgba(0,0,0,0.6);
+	margin-bottom: 24px;	
+	background: #FFFFFF;
+
+}
+.user {
+	 width: 300px;
+	 height: 50px;
+	 display: flex;
+	 align-items: center;
+	 /*justify-content: space-around;*/
+	 margin-top: 20px; 
+	 margin-left: 24px;
+}
+.user-ava {
+	width: 48px;
+	height: 48px;
+	background: url(monika.png);
+	overflow: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 100px;
+	/*padding-right: 8px;*/
+	margin-right: 8px;
+}
+.user-name {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.9);
+	letter-spacing: 0.2px;
+}
+.wrap {
+	display: flex;
+	align-items: center;
+}
+.wrap-bonus {
+	display: flex;
+	justify-content: space-between;
+}
+.sub-menu {
+	background:url(Shape.png);
+	width: 16px;
+	height: 4px;
+	background-size: cover;
+	margin-right: 20px;
+}
+.sub-text {
+	padding-right: 20px;
+	color: rgba(0, 0, 0, 0.32);	
+	font-size: 12px;	
+}
+.bonus-text {
+	margin: 24px 0px 0px 24px;
+
+}
+.bonus-subtext {
+	margin: 24px 0px 24px 24px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.add-comment {
+	margin: 0px 0px 24px 24px;
+	height: 24px;
+	font-size: 16px;
+	color: #FAA120;
+	/*padding-bottom: 24px;*/
+}
+.link {
+	text-decoration: none;
+}
+.welcome-ava {
+	background: url(welcome.png);
+	background-size: cover;
+	background-position: center;
+	/*border-radius: 100px;*/
+	width: 57px;
+	height: 41px;
+	margin-right:4px;
+}
+.gif {
+	width: 618px;
+	height: 649px;
+	background: url(freddy.webp);
+	background-size: cover;
+	margin: 0 auto;
+	margin-bottom: 24px;
+}
+.input-text {
+	border: none;
+	size: 5;
+}
+.take-bonus-smf {
+	/*display: flex;*/
+	/*width: 200px;*/	
+	height:24px;	
+	margin: 4px 0 0 24px;	
+}
+.give {
+	 margin-top: 20px;
+}
+.emoji {
+	width: 20px;
+	height: 20px;
+	background: url(emoji.png);
+	background-size: cover;
+	margin-right: 12px;
+}
+.gif-menu {
+	width: 21px;
+	height: 11px;
+	background:url(GIF.png);
+	background-size: cover;
+}
+.wrap-dop {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	margin-left: 24px;
+	
+}
+.bottum-give {
+	width: 82px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: 4px;
+	background: #FAA120;
+	color:#FFFFFF; 	 
+	margin-right: 24px;
+
+}
+.footer-take-bonuce {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+.user-img {
+	width: 74px;
+	height: 82px;
+	background: url(monika.png);
+	background-size: cover;
+	border-radius: 100px;
+	margin: 48px 0 0 45px;
+}
+.monica-mail {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 22px;
+	color: rgba(0, 0, 0, 0.32);
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.sidebar-list {
+	margin-top: 40px;
+}
+.logo-list {
+	width: 24px;
+	height:24px;
+}
+.sidebar-inner {
+	display: flex;
+	margin-left: 45px;
+	height: 25px;
+	margin-bottom: 20px;
+}
+.home {
+	background: url(home.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.get-reward {
+	background: url(getreward.png);
+	background-size: cover;
+}
+.profile {
+	background: url(profile.svg);
+	background-size: cover;
+}
+.administration {
+	background: url(gear.png);
+	background-size: cover;
+}
+.settings {
+	background: url(settings.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text-list {
+	margin-left: 16px;
+}
