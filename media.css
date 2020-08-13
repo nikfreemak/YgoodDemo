@@ -1,0 +1,19 @@
+@media /*screen and*/(min-width:180px) and (max-width:700px) {
+	.sidebar {
+		display: none;
+	}
+	.feed {
+		width: 100%
+	}
+
+	.take-bonus {
+		width: 100%
+	}
+
+	.main-section { 
+		width: 100% 
+	}	
+	.bonus {
+		width: 100%
+	}
+}
