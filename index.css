@@ -4,6 +4,9 @@
 	margin: 0;
 	font-family: Open Sans;
 }
+.body {
+	font-family: "Open Sans", sans-serif;
+}
 .main-section {
 	display: flex;
 	background: #F6F5F7;
@@ -17,6 +20,12 @@
 	width: 100%;
 	margin-left: 45px;	
 	margin-top: 5px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.9);
+	letter-spacing: 0.2px;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
 }
 .feed {
 	width: 100%;
@@ -64,16 +73,18 @@
 	overflow: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 100px;
+	border-radius: 100%;
 	/*padding-right: 8px;*/
 	margin-right: 8px;
 }
 .user-name {
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 24px;
+	font-weight: bold;
+	/*font-size: 16px;*/
+	/*line-height: 24px;
 	color: rgba(0, 0, 0, 0.9);
 	letter-spacing: 0.2px;
+	font-size: 20px;
+line-height: 32px;*/
 }
 .wrap {
 	display: flex;
@@ -189,11 +200,11 @@
 	justify-content: space-between;
 }
 .user-img {
-	width: 74px;
+	width: 82px;
 	height: 82px;
 	background: url(monika.png);
 	background-size: cover;
-	border-radius: 100px;
+	border-radius: 100%;
 	margin: 48px 0 0 45px;
 }
 .monica-mail {
@@ -223,7 +234,7 @@
 	background-color: #ffffff;
 }*/
 .home {
-	background: url(home.png);
+	background: url(home.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -241,7 +252,7 @@
 	background-size: cover;
 }
 .settings {
-	background: url(settings.png);
+	background: url(set.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
