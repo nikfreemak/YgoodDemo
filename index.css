@@ -6,7 +6,7 @@
 }
 .main-section {
 	display: flex;
-	background: #E5E5E5;
+	background: #F6F5F7;
 }
 .sidebar {
 	width: 230px;
@@ -35,7 +35,7 @@
 	/*height: 300px;*/
 	padding-bottom: 24px;
 	margin-bottom: 24px;	 
-	box-shadow:  0 0 10px rgba(0,0,0,0.5);	
+	box-shadow: 0px 4px 14px rgba(0,0,0,0.1), 0px 2px 9px rgba(0,0,0,0.06);	
 	/*background-color: green;*/
 	background: #FFFFFF;
 
@@ -43,7 +43,7 @@
 .bonus {
 	width: 656px;
 	/*background-color: blue;*/
-	box-shadow:  0 2px 9px rgba(0,0,0,0.6);
+	box-shadow: 0px 4px 14px rgba(0,0,0,0.1), 0px 2px 9px rgba(0,0,0,0.06);
 	margin-bottom: 24px;	
 	background: #FFFFFF;
 
@@ -110,6 +110,7 @@
 	height: 24px;
 	font-size: 16px;
 	color: #FAA120;
+	cursor: pointer;
 	/*padding-bottom: 24px;*/
 }
 .link {
@@ -218,6 +219,9 @@
 	margin-bottom: 20px;
 	cursor: pointer;
 }
+/*.sidebar-list :hover{
+	background-color: #ffffff;
+}*/
 .home {
 	background: url(home.png);
 	background-size: contain;
@@ -244,5 +248,13 @@
 }
 .text-list {
 	margin-left: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+}
+.strong {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
 }
 
